@@ -1,0 +1,2741 @@
+{
+  "@context" : {
+    "" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#1980-1989",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "kg-vidrio-domestico" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#kg-vidrio-domestico",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "de-poblacion-de-65-y-mas-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#de-poblacion-de-65-y-mas-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "total" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#total",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "n-medio-de-miembros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#n-medio-de-miembros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "urbana---base-liquidable-miles-de-euros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#urbana---base-liquidable-miles-de-euros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "clase-de-propietario" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#clase-de-propietario",
+      "@type" : "@id"
+    },
+    "ue28-ue27-ue25" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#ue28-ue27-ue25",
+      "@type" : "@id"
+    },
+    "hectareas-en-tierras-labradas-de-regadio-cultivo-vinedo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-de-regadio-cultivo-vinedo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "superficie-total" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-total",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "superficie-has" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-has",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "n-accidentes" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#n-accidentes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-con-4999-y-75-trabajando-en-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-con-4999-y-75-trabajando-en-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "otros-ingresos-de-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#5-otros-ingresos-de-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "urbano-bienes-inmuebles" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#urbano-bienes-inmuebles",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "superficie-regada-has" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-regada-has",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "deudas-comerciales-no-corrientes" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#deudas-comerciales-no-corrientes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "vi-vii-otros-pasivos-a-corto-plazo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vi-vii-otros-pasivos-a-corto-plazo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "total-personas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#total-personas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "tasa-de-masculinidad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#tasa-de-masculinidad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "entidad-singular" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#entidad-singular",
+      "@type" : "@id"
+    },
+    "ii-provisiones-a-corto-plazo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ii-provisiones-a-corto-plazo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "bi-industrial" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#bi-industrial",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "tamano-centro" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tamano-centro",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ii-existencias" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ii-existencias",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "unidades-trabajo-ano-otros-miembros-familia" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-trabajo-ano-otros-miembros-familia",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "explotaciones-con-tierras-con-sau-5-hectareas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-con-sau-5-hectareas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-que-son-mano-de-obra-familiar-distinta-a-las-anteriores-otros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-que-son-mano-de-obra-familiar-distinta-a-las-anteriores-otros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "subespecie-ganaderia" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#subespecie-ganaderia",
+      "@type" : "@id"
+    },
+    "n-hogares" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#n-hogares",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "evacuacion-aguas-residuales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#evacuacion-aguas-residuales",
+      "@type" : "@id"
+    },
+    "viviendas-obra-nueva-bloque" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#viviendas-obra-nueva-bloque",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personalidad-juridica" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#personalidad-juridica",
+      "@type" : "@id"
+    },
+    "amortizacion-del-inmovilizado" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#8-amortizacion-del-inmovilizado",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "superficie-lugares-de-importacia-comunitaria" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-lugares-de-importacia-comunitaria",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "viviendas-con-acceso-a-internet" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#viviendas-con-acceso-a-internet",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "tasa-de-feminidad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tasa-de-feminidad",
+      "@type" : "@id"
+    },
+    "personas-que-son-mano-de-obra-familiar-35-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-que-son-mano-de-obra-familiar-35-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "duracion-contrato" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#duracion-contrato",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "total-gastos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#total-gastos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "personas-asalariadas-fijas-mujeres" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-asalariadas-fijas-mujeres",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-que-son-mano-de-obra-familiar-de-35-a-45-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-que-son-mano-de-obra-familiar-de-35-a-45-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "superficie-regada-por-gravedad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-regada-por-gravedad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "pension-media-por-percepcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#pension-media-por-percepcion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "numero-de-explotaciones-con-ganado" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#numero-de-explotaciones-con-ganado",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-son-titulares-de-35-a-54-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-son-titulares-de-35-a-54-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-son-titulares-de-55-a-64-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-son-titulares-de-55-a-64-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "total-edificios" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#total-edificios",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hectareas-en-tierras-labradas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ue25" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#ue25",
+      "@type" : "@id"
+    },
+    "agua-corriente" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#agua-corriente",
+      "@type" : "@id"
+    },
+    "vc-almacen-estacionamiento" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vc-almacen-estacionamiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "falta-de-servicios-de-aseo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#falta-de-servicios-de-aseo",
+      "@type" : "@id"
+    },
+    "contenedores-de-papel-y-carton" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#contenedores-de-papel-y-carton",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "balance" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#balance",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "duracion-contrato--100--numero-de-contratos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#duracion-contrato--100--numero-de-contratos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "transferencias-de-capital" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#transferencias-de-capital",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "total-ingresos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#total-ingresos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "estado-civil" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#estado-civil",
+      "@type" : "@id"
+    },
+    "especie-ganaderia" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#especie-ganaderia",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "explotaciones-que-usan-maquinaria-propia" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-que-usan-maquinaria-propia",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "nivel-estudios-detalle" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#nivel-estudios-detalle",
+      "@type" : "@id"
+    },
+    "hectareas-en-otros-regimenes-de-tenencia-de-las-tierras" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-otros-regimenes-de-tenencia-de-las-tierras",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "espacios-naturales-protegidos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#espacios-naturales-protegidos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "d-resultado-del-ejercicio" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#d-resultado-del-ejercicio",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "b-activo-corriente" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#b-activo-corriente",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "de-poblacion-menor-de-35" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#de-poblacion-menor-de-35",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "tasa-global-de-dependencia-jovenes" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#tasa-global-de-dependencia-jovenes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hectareas-en-tierras-labradas-con-cultivos-herbaceos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-con-cultivos-herbaceos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "licencias-total" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#licencias-total",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "grandes-grupos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#grandes-grupos",
+      "@type" : "@id"
+    },
+    "vc-suelo-vacante" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vc-suelo-vacante",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "enajenacion-inversiones-reales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#enajenacion-inversiones-reales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "fondo-de-maniobra" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#fondo-de-maniobra",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "votos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#votos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "n-edificios" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#n-edificios",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "variacion-de-existencias-de-productos-terminados-y-en-curso-de-fabricacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#2-variacion-de-existencias-de-productos-terminados-y-en-curso-de-fabricacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "total-maquinas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#total-maquinas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "de-poblacion-menor-de-15" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#de-poblacion-menor-de-15",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "kg-recogidos-de-pilas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#kg-recogidos-de-pilas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ue25-ue27-ue28" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#ue25-ue27-ue28",
+      "@type" : "@id"
+    },
+    "ano" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ano",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "relacion-lugar-de-residencia-y-nacimiento" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#relacion-lugar-de-residencia-y-nacimiento",
+      "@type" : "@id"
+    },
+    "corine-land-cover-2000-nivel-3-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#corine-land-cover-2000-nivel-3-descripcion",
+      "@type" : "@id"
+    },
+    "gastos-de-personal" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#gastos-de-personal",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tipo-hogar-1" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-hogar-1",
+      "@type" : "@id"
+    },
+    "explotaciones-ganaderia" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-ganaderia",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-titulares-que-trabajan-en-otra-actividad-como-principal" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-titulares-que-trabajan-en-otra-actividad-como-principal",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "numero-de-locales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#numero-de-locales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-tierras-con-50-y--75-de-su-propiedad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-con-50-y--75-de-su-propiedad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "tipo-de-vivienda-principal" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-de-vivienda-principal",
+      "@type" : "@id"
+    },
+    "habitantes-equivalentes" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#habitantes-equivalentes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "tamano-medio" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#tamano-medio",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "tipo-vivienda" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-vivienda",
+      "@type" : "@id"
+    },
+    "bonificado-o-no" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#bonificado-o-no",
+      "@type" : "@id"
+    },
+    "hectareas-en-tierras-labradas-de-regadio" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-de-regadio",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "explotaciones-que-usan-maquinaria-no-en-propiedad-exclusiva" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-que-usan-maquinaria-no-en-propiedad-exclusiva",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "situacion-profesional" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#situacion-profesional",
+      "@type" : "@id"
+    },
+    "impuestos-indirectos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#impuestos-indirectos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "poblacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#poblacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "i-pasivos-vinculados-con-activos-no-corrientes" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#i-pasivos-vinculados-con-activos-no-corrientes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "n-viviendas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#n-viviendas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "viviendas-nueva-planta" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#viviendas-nueva-planta",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "visados-total" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#visados-total",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-tierras-con-sau--100-hectareas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-con-sau--100-hectareas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "indice-de-ancianidad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#indice-de-ancianidad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "nacionalidad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#nacionalidad",
+      "@type" : "@id"
+    },
+    "total-bienes-inmuebles" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#total-bienes-inmuebles",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-tierras-con-25-y-50-de-su-propiedad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-con-25-y-50-de-su-propiedad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "n-demandantes" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#n-demandantes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "n-habitaciones" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#n-habitaciones",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "residencia" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#residencia",
+      "@type" : "@id"
+    },
+    "ratio-de-liquidez" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ratio-de-liquidez",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "licencias-rehabilitacion-locales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#licencias-rehabilitacion-locales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "cnae-ano" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#cnae-ano",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "clase-vivienda-detalle" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#clase-vivienda-detalle",
+      "@type" : "@id"
+    },
+    "rustico-valor-catastral" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#rustico-valor-catastral",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "b-resultado-financiero" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#b-resultado-financiero",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "explotaciones-con-tierras-con-sau--50-y--100-hectareas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-con-sau--50-y--100-hectareas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "i-inmovilizado-intangible" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#i-inmovilizado-intangible",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "numero-de-miembros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#numero-de-miembros",
+      "@type" : "@id"
+    },
+    "ordenmodalidad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ordenmodalidad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "bi-ocio-hosteleria" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#bi-ocio-hosteleria",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hectareas-en-propiedad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-propiedad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "sector-actividad-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#sector-actividad-descripcion",
+      "@type" : "@id"
+    },
+    "explotaciones-que-usan-maquinaria-no-en-propiedad-exclusiva-otra-maquina" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-que-usan-maquinaria-no-en-propiedad-exclusiva-otra-maquina",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "unidades-de-trabajo-que-siendo-mano-de-obra-familiar-son-titulares-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-de-trabajo-que-siendo-mano-de-obra-familiar-son-titulares-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "superficie-de-espacios-naturales-protegidos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-de-espacios-naturales-protegidos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "tipo-nacionalidad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-nacionalidad",
+      "@type" : "@id"
+    },
+    "ii-ixa-2a-3-otros-fondos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ii-ixa-2a-3-otros-fondos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "sector" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#sector",
+      "@type" : "@id"
+    },
+    "estudios-en-curso" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#estudios-en-curso",
+      "@type" : "@id"
+    },
+    "explotaciones-con-tierras-con--25-de-su-propiedad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-con--25-de-su-propiedad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "edificios-nueva-planta-no-residencial" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#edificios-nueva-planta-no-residencial",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-titulares-que-solo-trabajan-en-la-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-titulares-que-solo-trabajan-en-la-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "censo-electoral" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#censo-electoral",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-superficie--100-hectareas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-superficie--100-hectareas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "superficie-calificada-agricultura-ecologica" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-calificada-agricultura-ecologica",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "lugar-de-nacimiento" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#lugar-de-nacimiento",
+      "@type" : "@id"
+    },
+    "regimen-de-tenencia-agregado" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#regimen-de-tenencia-agregado",
+      "@type" : "@id"
+    },
+    "superficie-nueva-planta-residencial" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-nueva-planta-residencial",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "de-poblacion-de-0-a-19-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#de-poblacion-de-0-a-19-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "vab" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vab",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "extranjeros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#extranjeros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "plantas-sobre-rasante" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#plantas-sobre-rasante",
+      "@type" : "@id"
+    },
+    "sexo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#sexo",
+      "@type" : "@id"
+    },
+    "afiliaciones-en-alta" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#afiliaciones-en-alta",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "rama-actividad-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#rama-actividad-descripcion",
+      "@type" : "@id"
+    },
+    "area" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#area",
+      "@type" : "@id"
+    },
+    "pension-retribucion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#pension-retribucion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "sector-actividad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#sector-actividad",
+      "@type" : "@id"
+    },
+    "accesible" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#accesible",
+      "@type" : "@id"
+    },
+    "orden" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#orden",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "superficie-util" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-util",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "bi-oficinas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#bi-oficinas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-que-son-mano-de-obra-familiar-de-55-a-64-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-que-son-mano-de-obra-familiar-de-55-a-64-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-titulares-que-trabajan-en-otra-actividad-como-secundaria" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-titulares-que-trabajan-en-otra-actividad-como-secundaria",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ano-de-construccion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#ano-de-construccion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ue28" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#ue28",
+      "@type" : "@id"
+    },
+    "superficie-regada-con-aguas-depuradas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-regada-con-aguas-depuradas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "ii-inmovilizado-material" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ii-inmovilizado-material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hectareas-en-tierras-para-pastos-permanentes" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-para-pastos-permanentes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ganado-caprino-cabezas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ganado-caprino-cabezas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "tipo-de-edificio" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-de-edificio",
+      "@type" : "@id"
+    },
+    "explotaciones-con-tierras-labranza-y-otras" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-labranza-y-otras",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hectareas-en-tierras-labradas-con-cultivo-olivar" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-con-cultivo-olivar",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "combustible-usado" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#combustible-usado",
+      "@type" : "@id"
+    },
+    "unidades-trabajo-ano-mano-obra-familiar" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-trabajo-ano-mano-obra-familiar",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "cantidad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#cantidad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-tierras-con-sau--10-y--20-hectareas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-con-sau--10-y--20-hectareas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "sau" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#sau",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "salario-retribucion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#salario-retribucion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "urbana---cuota-liquida-euros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#urbana---cuota-liquida-euros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-superficie--01-y-5-hectareas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-superficie--01-y-5-hectareas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "viviendas-con-agua-corriente" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#viviendas-con-agua-corriente",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "superficie-regada-con-agua-insuficiente" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-regada-con-agua-insuficiente",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hectareas-en-arrendamiento" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-arrendamiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "poca-limpieza" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#poca-limpieza",
+      "@type" : "@id"
+    },
+    "personas-mano-obra-familiar-con-remuneracion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-con-remuneracion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "miles-de-aves" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#miles-de-aves",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "estructura-hogar" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#estructura-hogar",
+      "@type" : "@id"
+    },
+    "pension-percepciones" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#pension-percepciones",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-otros-que-solo-trabajan-en-la-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-otros-que-solo-trabajan-en-la-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "antes-de-1950" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#antes-de-1950",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "b-pasivo-no-corriente" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#b-pasivo-no-corriente",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hectareas-en-tierras-labradas-de-regadio-otros-cultivos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-de-regadio-otros-cultivos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "grupo-clase-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#grupo-clase-explotacion",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "n-parados" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#n-parados",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ccaa-2-residencia-nombre" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ccaa-2-residencia-nombre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tipo-de-vehiculo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-de-vehiculo",
+      "@type" : "@id"
+    },
+    "participacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#participacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "viviendas-obra-nueva-total" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#viviendas-obra-nueva-total",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "indice-de-envejecimiento" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#indice-de-envejecimiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "area-gastos-servicios-publicos-basicos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#area-gastos-servicios-publicos-basicos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "comarca" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#comarca",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "pension-media-por-persona" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#pension-media-por-persona",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "trabajos-realizados-por-la-empresa-para-su-activo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#3-trabajos-realizados-por-la-empresa-para-su-activo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "grupo-de-tipo-de-contrato" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#grupo-de-tipo-de-contrato",
+      "@type" : "@id"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "licencias-rehabilitacion-con-demolicion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#licencias-rehabilitacion-con-demolicion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "vc-oficinas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vc-oficinas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "superficie-calificada-en-reconversion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-calificada-en-reconversion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "ganado-ovino-cabezas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ganado-ovino-cabezas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "a-1-fondos-propios" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#a-1-fondos-propios",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "extrenjeros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#extrenjeros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "pyg" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#pyg",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "personas-que-son-mano-de-obra-familiar-y-titulares-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-que-son-mano-de-obra-familiar-y-titulares-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "rama" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#rama",
+      "@type" : "@id"
+    },
+    "grandes-grupos-cno" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#grandes-grupos-cno",
+      "@type" : "@id"
+    },
+    "bi-sanidad-benefic" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#bi-sanidad-benefic",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "i-activos-no-corrientes-mantenidos-para-la-venta" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#i-activos-no-corrientes-mantenidos-para-la-venta",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "viviendas-obra-nueva-unifamiliar" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#viviendas-obra-nueva-unifamiliar",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "tipo-de-vivienda" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-de-vivienda",
+      "@type" : "@id"
+    },
+    "indice-de-sobreenvejecimiento" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#indice-de-sobreenvejecimiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "personas-mano-obra-familiar-otros-de-55-a-64-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-otros-de-55-a-64-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ano-cno" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#ano-cno",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "numero-total-de-explotaciones" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#numero-total-de-explotaciones",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "contenedores-de-pilas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#contenedores-de-pilas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "sin-definir" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#sin-definir",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "numero-de-personas-en-el-hogar" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#numero-de-personas-en-el-hogar",
+      "@type" : "@id"
+    },
+    "cursos-jefe-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#cursos-jefe-explotacion",
+      "@type" : "@id"
+    },
+    "viviendas-obra-nueva-otros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#viviendas-obra-nueva-otros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "superficie-util-agrupada" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#superficie-util-agrupada",
+      "@type" : "@id"
+    },
+    "territorio" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#territorio",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "personas-mano-obra-familiar-trabajan-en-otra-actividad-como-principal" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-trabajan-en-otra-actividad-como-principal",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "edificios-nueva-planta-residencial" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#edificios-nueva-planta-residencial",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hectareas-en-tierras-labradas-de-regadio-cultivos-frutales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-de-regadio-cultivos-frutales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "indice-de-potencialidad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#indice-de-potencialidad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "subespecie-ganaderia-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#subespecie-ganaderia-descripcion",
+      "@type" : "@id"
+    },
+    "personas-mano-obra-familiar-conyuges-que-solo-trabajan-en-la-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-conyuges-que-solo-trabajan-en-la-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "unidades-de-trabajo-que-siendo-mano-de-obra-familiar-son-conyuges" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-de-trabajo-que-siendo-mano-de-obra-familiar-son-conyuges",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "personas-que-son-mano-de-obra-familiar-mujeres" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-que-son-mano-de-obra-familiar-mujeres",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "urbano-superficie" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#urbano-superficie",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "personas-mano-obra-familiar-son-titulares-de-mas-de-65-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-son-titulares-de-mas-de-65-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "continente" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#continente",
+      "@type" : "@id"
+    },
+    "residencial" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#residencial",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hectareas-de-sau-en-propiedad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-de-sau-en-propiedad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "superficie-calificada-primer-ano-practicas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-calificada-primer-ano-practicas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "estrato" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#estrato",
+      "@type" : "@id"
+    },
+    "personas-mano-obra-familiar-sin-remuneracion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-sin-remuneracion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "urbano-parcelas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#urbano-parcelas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "viviendas-rehabilitacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#viviendas-rehabilitacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "segunda-residencia" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#segunda-residencia",
+      "@type" : "@id"
+    },
+    "pension-perceptores" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#pension-perceptores",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hectareas-en-otras-tierras" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-otras-tierras",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hectareas-en-tierras-labradas-de-secano-cultivos-herbaceos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-de-secano-cultivos-herbaceos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "total-jornadas-parciales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#total-jornadas-parciales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "unidades-de-trabajo-que-son-asalariados-fijos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-de-trabajo-que-son-asalariados-fijos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "viviendas-con-tendido-telefonico" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#viviendas-con-tendido-telefonico",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "explotaciones-con-tierras-cuya-superficie-es-totalmente-de-su-propiedad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-cuya-superficie-es-totalmente-de-su-propiedad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "provincia" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#provincia",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-conyuges-que-trabajan-tambien-en-otra-activ-lucrativa" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-conyuges-que-trabajan-tambien-en-otra-activ-lucrativa",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "estado" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#estado",
+      "@type" : "@id"
+    },
+    "salario-medio-por-percepcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#salario-medio-por-percepcion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "rentabilidad-financiera" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#rentabilidad-financiera",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hectareas-en-aparceria" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-aparceria",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "iii-deudores-comerciales-y-otras-cuentas-a-cobrar" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#iii-deudores-comerciales-y-otras-cuentas-a-cobrar",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "unidades-de-trabajo-que-son-jefes-de-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-de-trabajo-que-son-jefes-de-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "plazas-garaje" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#plazas-garaje",
+      "@type" : "@id"
+    },
+    "impuestos-directos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#impuestos-directos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "renta-disponible-bruta-per-capita" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#renta-disponible-bruta-per-capita",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "depuradoras" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#depuradoras",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-maquina-en-propiedad-tractor" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-maquina-en-propiedad-tractor",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "unidades-trabajo-ano-asalariados-eventuales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-trabajo-ano-asalariados-eventuales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "cif" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#cif",
+      "@type" : "@id"
+    },
+    "vii-efectivo-y-otros-activos-liquidos-equivalentes" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vii-efectivo-y-otros-activos-liquidos-equivalentes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "explotaciones-que-usan-maquinaria-no-en-propiedad-exclusiva-motocultor" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-que-usan-maquinaria-no-en-propiedad-exclusiva-motocultor",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "fuente-y-fecha" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#fuente-y-fecha",
+      "@type" : "@id"
+    },
+    "explotaciones-con-solo-tierras-labranza" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-solo-tierras-labranza",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "portero" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#portero",
+      "@type" : "@id"
+    },
+    "plazas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#plazas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "nucleodiseminado" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#nucleodiseminado",
+      "@type" : "@id"
+    },
+    "personas-mano-obra-familiar-solo-trabajan-en-la-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-solo-trabajan-en-la-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "salario-percepciones" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#salario-percepciones",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hectareas-en-especies-arboreas-forestales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-especies-arboreas-forestales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "superficie-regada-con-concesion-integrada-en-una-comunidad-de-regantes" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-regada-con-concesion-integrada-en-una-comunidad-de-regantes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "abstencion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#abstencion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "gas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#gas",
+      "@type" : "@id"
+    },
+    "iii-inversiones-inmobiliarias" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#iii-inversiones-inmobiliarias",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "temporalidad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#temporalidad",
+      "@type" : "@id"
+    },
+    "tiempo-desplazamiento" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tiempo-desplazamiento",
+      "@type" : "@id"
+    },
+    "licencias-nueva-planta-total" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#licencias-nueva-planta-total",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "urbana---base-imponible-miles-de-euros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#urbana---base-imponible-miles-de-euros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-otra-formacion-agricola-del-titular" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-otra-formacion-agricola-del-titular",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "cosechadoras" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#cosechadoras",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "vc-sanidad-benefic" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vc-sanidad-benefic",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "pocas-zonas-verdes" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#pocas-zonas-verdes",
+      "@type" : "@id"
+    },
+    "grado-de-formacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#grado-de-formacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "motocultores" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#motocultores",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "de-poblacion-menor-de-25" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#de-poblacion-menor-de-25",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "ganado-equino-cabezas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ganado-equino-cabezas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-tierras-con-sau-25-y-50-de-su-propiedad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-con-sau-25-y-50-de-su-propiedad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-conyuge-35-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-conyuge-35-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "gastos-fondo-de-contingencia" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#gastos-fondo-de-contingencia",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "personas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "vc-religioso" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vc-religioso",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "superficie-regada-sobre-sau" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-regada-sobre-sau",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "ratio-de-calidad-de-la-deuda" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ratio-de-calidad-de-la-deuda",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "telefono" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#telefono",
+      "@type" : "@id"
+    },
+    "modalidad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#modalidad",
+      "@type" : "@id"
+    },
+    "establecimientos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#establecimientos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hectareas-en-tierras-labradas-de-secano-cultivos-frutales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-de-secano-cultivos-frutales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "personas-mano-obra-familiar-trabajan-tambien-en-otra-activ-lucrativa" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-trabajan-tambien-en-otra-activ-lucrativa",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-cuyo-titular-es-una-cooperativa-de-produccion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-cuyo-titular-es-una-cooperativa-de-produccion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "descripcion-ocupacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#descripcion-ocupacion",
+      "@type" : "@id"
+    },
+    "licencias-nueva-planta-con-demolicion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#licencias-nueva-planta-con-demolicion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-residentes-viviendas-familiares" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-residentes-viviendas-familiares",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-tierras-con-sau--20-y--50-hectareas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-con-sau--20-y--50-hectareas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "tasas-y-otros-ingresos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#tasas-y-otros-ingresos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "densidad-de-poblacion-habkm2" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#densidad-de-poblacion-habkm2",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "codcom" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#codcom",
+      "@type" : "@id"
+    },
+    "explotaciones-que-usan-maquinaria-no-en-propiedad-exclusiva-tractor" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-que-usan-maquinaria-no-en-propiedad-exclusiva-tractor",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "vc-espectaculos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vc-espectaculos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "bi-almacen-estacionamiento" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#bi-almacen-estacionamiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "fondo-de-contingencia" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#fondo-de-contingencia",
+      "@type" : "@id"
+    },
+    "tipo-de-presupuesto" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-de-presupuesto",
+      "@type" : "@id"
+    },
+    "edad-grupos-quinquenales-2010" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales-2010",
+      "@type" : "@id"
+    },
+    "viviendas-con-disponibilidad-de-ducha-o-banera" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#viviendas-con-disponibilidad-de-ducha-o-banera",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "urbana---numero-de-recibos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#urbana---numero-de-recibos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "rustica---cuota-integra-euros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#rustica---cuota-integra-euros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "nivel-de-estudios-nombre" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#nivel-de-estudios-nombre",
+      "@type" : "@id"
+    },
+    "grupo-de-tipo-de-jornada" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#grupo-de-tipo-de-jornada",
+      "@type" : "@id"
+    },
+    "hectareas-en-tierras-labradas-de-secano-otros-cultivos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-de-secano-otros-cultivos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "unidades-de-trabajoano-totales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-de-trabajoano-totales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ganado-bovino-resto-bovino-cabezas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ganado-bovino-resto-bovino-cabezas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "area-gastos-produccion-bienes-publicos-caracter-preferente" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#area-gastos-produccion-bienes-publicos-caracter-preferente",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "activos-financieros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#activos-financieros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ratio-de-tesoreria" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ratio-de-tesoreria",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "numero-de-actividades" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#numero-de-actividades",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-solo-otras-tierras" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-solo-otras-tierras",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "licencias-demolicion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#licencias-demolicion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ganado-bovino-cabezas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ganado-bovino-cabezas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "otros-gastos-de-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#7-otros-gastos-de-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "de-poblacion-menor-de-45" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#de-poblacion-menor-de-45",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "superficie-regada-con-concesion-individual" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-regada-con-concesion-individual",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "mes-nombre" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#mes-nombre",
+      "@type" : "@id"
+    },
+    "total-viviendas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#total-viviendas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "desempleo-perceptores" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#desempleo-perceptores",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "cod-temporalidad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#cod-temporalidad",
+      "@type" : "@id"
+    },
+    "cuentas-cotizacion-con-trabajadores" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#cuentas-cotizacion-con-trabajadores",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "rustica---cuota-liquida-euros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#rustica---cuota-liquida-euros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "area-nacionalidad-nombre" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#area-nacionalidad-nombre",
+      "@type" : "@id"
+    },
+    "edad-media-de-la-poblacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#edad-media-de-la-poblacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "sector-de-actividad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#sector-de-actividad",
+      "@type" : "@id"
+    },
+    "personas-mano-obra-familiar-conyuges-que-trabajan-en-otra-actividad-como-secundaria" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-conyuges-que-trabajan-en-otra-actividad-como-secundaria",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "desempleo-prestacion-media-anual" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#desempleo-prestacion-media-anual",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "explotaciones-con-maquina-en-propiedad-motocultor" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-maquina-en-propiedad-motocultor",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "renta-disponible-bruta" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#renta-disponible-bruta",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "iii-iv-deudas-a-corto-plazo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#iii-iv-deudas-a-corto-plazo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "tasa-global-de-dependencia-ancianos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#tasa-global-de-dependencia-ancianos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "calefaccion-detalle" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#calefaccion-detalle",
+      "@type" : "@id"
+    },
+    "estado-de-la-informacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#estado-de-la-informacion",
+      "@type" : "@id"
+    },
+    "otros-activos-comerciales-no-corrientes" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#otros-activos-comerciales-no-corrientes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "votos-blancos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#votos-blancos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "regtenen-orden" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#regtenen-orden",
+      "@type" : "@id"
+    },
+    "bi-deportivo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#bi-deportivo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hectareas-en-tierras-labradas-de-secano-cultivo-vinedo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-de-secano-cultivo-vinedo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "relacion-lugar-de-residencia-y-nacimiento-prov" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#relacion-lugar-de-residencia-y-nacimiento-prov",
+      "@type" : "@id"
+    },
+    "gestion-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#gestion-explotacion",
+      "@type" : "@id"
+    },
+    "salario-medio-anual" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#salario-medio-anual",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "tipo-de-nacionalidad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-de-nacionalidad",
+      "@type" : "@id"
+    },
+    "zonas-de-especial-proteccion-para-las-aves" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#zonas-de-especial-proteccion-para-las-aves",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-cuya-gestion-se-lleva-por-otra-persona" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-cuya-gestion-se-lleva-por-otra-persona",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ocupacion-1-digito-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#ocupacion-1-digito-descripcion",
+      "@type" : "@id"
+    },
+    "personas-mano-obra-familiar-con-100-trabajando-en-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-con-100-trabajando-en-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "viviendas-ampliacion-o-reforma" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#viviendas-ampliacion-o-reforma",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "unidades-trabajo-ano-asalariados" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-trabajo-ano-asalariados",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "superficie-regada-con-aguas-superficiales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-regada-con-aguas-superficiales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "edificios-demolicion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#edificios-demolicion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-que-son-mano-de-obra-familiar" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-que-son-mano-de-obra-familiar",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "tierras-labradas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#tierras-labradas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "codmun" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#codmun",
+      "@type" : "@id"
+    },
+    "DimensionProperty" : {
+      "@id" : "http://purl.org/linked-data/cube#DimensionProperty"
+    },
+    "mes-y-ano" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#mes-y-ano",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "vc-comercial" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vc-comercial",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "explotaciones-con-tierras-labranza-pastos-y-otras" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-labranza-pastos-y-otras",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "rustica---base-liquidable-miles-de-euros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#rustica---base-liquidable-miles-de-euros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "vc-residencial" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vc-residencial",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "vehiculos-en-el-hogar" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#vehiculos-en-el-hogar",
+      "@type" : "@id"
+    },
+    "personas-jefes-de-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-jefes-de-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "grupos-1-duracion-demanda-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#grupos-1-duracion-demanda-descripcion",
+      "@type" : "@id"
+    },
+    "numero-hogares" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#numero-hogares",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "viviendas-demolicion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#viviendas-demolicion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-que-son-mano-de-obra-familiar-y-conyuges" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-que-son-mano-de-obra-familiar-y-conyuges",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "unidades-de-trabajo-que-siendo-mano-de-obra-familiar-son-otros-diferentes" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-de-trabajo-que-siendo-mano-de-obra-familiar-son-otros-diferentes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "ruidos-exteriores" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#ruidos-exteriores",
+      "@type" : "@id"
+    },
+    "explotaciones-con-formacion-profesional-del-titular" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-formacion-profesional-del-titular",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hectareas-en-tierras-labradas-de-regadio-cultivo-olivar" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-de-regadio-cultivo-olivar",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "concejales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#concejales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hectareas-en-tierras-labradas-de-secano" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-de-secano",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "personas-mano-obra-familiar-conyuge-de-55-a-64-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-conyuge-de-55-a-64-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "licencias-rehabilitacion-total" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#licencias-rehabilitacion-total",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "v-acreedores-comerciales-y-otras-cuentas-a-pagar" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#v-acreedores-comerciales-y-otras-cuentas-a-pagar",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "pastizales-permanentes" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#pastizales-permanentes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "bi-espectaculos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#bi-espectaculos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "combustible" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#combustible",
+      "@type" : "@id"
+    },
+    "explotaciones-con-maquina-en-propiedad-cosechadora" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-maquina-en-propiedad-cosechadora",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "relacion-lugar-de-residencia-y-nacimiento-com" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#relacion-lugar-de-residencia-y-nacimiento-com",
+      "@type" : "@id"
+    },
+    "ganado-bovino-vacas-lecheras-cabezas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ganado-bovino-vacas-lecheras-cabezas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "area-gastos-actuaciones-proteccion-y-promocion-social" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#area-gastos-actuaciones-proteccion-y-promocion-social",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "agua-caliente-central" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#agua-caliente-central",
+      "@type" : "@id"
+    },
+    "edad-grandes-grupos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#edad-grandes-grupos",
+      "@type" : "@id"
+    },
+    "nacionalidad-continente-nombre" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#nacionalidad-continente-nombre",
+      "@type" : "@id"
+    },
+    "salario-percepciones-por-persona" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#salario-percepciones-por-persona",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "personas-que-son-mano-de-obra-familiar-hombres" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-que-son-mano-de-obra-familiar-hombres",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-otros-otra-relacion-con-35-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-otros-otra-relacion-con-35-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "licencias-nueva-planta-sin-demolicion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#licencias-nueva-planta-sin-demolicion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-conyuge-de-mas-de-65-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-conyuge-de-mas-de-65-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ingresos-financieros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#14-ingresos-financieros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hectareas-de-sau-en-otros-regimenes-de-tenencia-de-las-tierras" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-de-sau-en-otros-regimenes-de-tenencia-de-las-tierras",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-tierras-sin-sau" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-sin-sau",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "edificios-rehabilitacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#edificios-rehabilitacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-otra-condicion-juridica" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-otra-condicion-juridica",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "superficie-no-regada-disponiendo-la-explotacion-de-instalaciones-y-agua" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-no-regada-disponiendo-la-explotacion-de-instalaciones-y-agua",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "sector-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#sector-descripcion",
+      "@type" : "@id"
+    },
+    "visados-ampliacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#visados-ampliacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "nacionalidad-pais-nombre" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#nacionalidad-pais-nombre",
+      "@type" : "@id"
+    },
+    "sector-vab-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#sector-vab-descripcion",
+      "@type" : "@id"
+    },
+    "incendios" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#incendios",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "tipo-edificio-agregado" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-edificio-agregado",
+      "@type" : "@id"
+    },
+    "explotaciones-con-superficie--50-y-100-hectareas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-superficie--50-y-100-hectareas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-que-usan-maquinaria-no-en-propiedad-exclusiva-cosechadora" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-que-usan-maquinaria-no-en-propiedad-exclusiva-cosechadora",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "grupo-antiguedad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#grupo-antiguedad",
+      "@type" : "@id"
+    },
+    "explotaciones-con-maquina-en-propiedad-otra-maquina" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-maquina-en-propiedad-otra-maquina",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "transferencias-corrientes" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#transferencias-corrientes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "explotaciones-con-tierras-con-sau" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-con-sau",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "vc-ocio-hosteleria" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vc-ocio-hosteleria",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "lugar-de-residencia" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#lugar-de-residencia",
+      "@type" : "@id"
+    },
+    "unidades-trabajo-ano-asalariados-fijos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-trabajo-ano-asalariados-fijos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "cooperativas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#cooperativas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "personas-que-son-mano-de-obra-familiar-de-mas-de-65-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-que-son-mano-de-obra-familiar-de-mas-de-65-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-trabajan-en-otra-actividad-como-secundaria" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-trabajan-en-otra-actividad-como-secundaria",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "visados-obra-nueva" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#visados-obra-nueva",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-titulares-que-trabajan-tambien-en-otra-activ-lucrativa" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-titulares-que-trabajan-tambien-en-otra-activ-lucrativa",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "superficie-forestal-afectada" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-forestal-afectada",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "rustica---cuota-euros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#rustica---cuota-euros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "nucleos-en-el-hogar" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#nucleos-en-el-hogar",
+      "@type" : "@id"
+    },
+    "otras-tierrras" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#otras-tierrras",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "licencias" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#licencias",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "vc-edificios-singulares" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vc-edificios-singulares",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "contaminacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#contaminacion",
+      "@type" : "@id"
+    },
+    "ratios" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#ratios",
+      "@type" : "@id"
+    },
+    "votos-nulos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#votos-nulos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "superficie-regada-por-aspersion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-regada-por-aspersion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "superficie-total-de-las-explotaciones" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-total-de-las-explotaciones",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "vi-acreedores-comerciales-no-corrientes" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vi-acreedores-comerciales-no-corrientes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "superficie-agricola-utilizada" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#superficie-agricola-utilizada",
+      "@type" : "@id"
+    },
+    "explotaciones-con-tierras-con-sau-50-y-75-de-su-propiedad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-con-sau-50-y-75-de-su-propiedad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "fuentes-mineromedicinales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#fuentes-mineromedicinales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "lugar-trabajo-o-estudio" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#lugar-trabajo-o-estudio",
+      "@type" : "@id"
+    },
+    "siglas-agrupada" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#siglas-agrupada",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "jefe-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#jefe-explotacion",
+      "@type" : "@id"
+    },
+    "superficie-nueva-planta-total" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-nueva-planta-total",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "residencia-pais-nombre" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#residencia-pais-nombre",
+      "@type" : "@id"
+    },
+    "unidades-ganaderas-totales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-ganaderas-totales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "bi-religioso" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#bi-religioso",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "refrigeracion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#refrigeracion",
+      "@type" : "@id"
+    },
+    "n-de-habitaciones-de-la-vivienda" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#n-de-habitaciones-de-la-vivienda",
+      "@type" : "@id"
+    },
+    "regimen-2-digitos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#regimen-2-digitos",
+      "@type" : "@id"
+    },
+    "numero-de-miembros-del-hogar" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#numero-de-miembros-del-hogar",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "bi-edificios-singulares" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#bi-edificios-singulares",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "residencia-continente-nombre" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#residencia-continente-nombre",
+      "@type" : "@id"
+    },
+    "importe-neto-de-la-cifra-de-negocios" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#1-importe-neto-de-la-cifra-de-negocios",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hectareas-en-tierras-labradas-de-secano-cultivo-olivar" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-de-secano-cultivo-olivar",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "unidades-de-trabajo-que-son-asalariados-eventuales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-de-trabajo-que-son-asalariados-eventuales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "bi-comercial" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#bi-comercial",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "n-personas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#n-personas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hectareas-en-tierras-labradas-con-otros-cultivos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-con-otros-cultivos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "origen" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#origen",
+      "@type" : "@id"
+    },
+    "i-capital" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#i-capital",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "continente-nacionalidad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#continente-nacionalidad",
+      "@type" : "@id"
+    },
+    "MeasureProperty" : {
+      "@id" : "http://purl.org/linked-data/cube#MeasureProperty"
+    },
+    "otras-maquinas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#otras-maquinas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-otros-de-35-a-54-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-otros-de-35-a-54-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "y-posterior" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#2010-y-posterior",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "indice-reemplazamiento-edad-activa-total" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#indice-reemplazamiento-edad-activa-total",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "residencia-area-nombre" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#residencia-area-nombre",
+      "@type" : "@id"
+    },
+    "explotaciones-con-superficie-5-y-10-hectareas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-superficie-5-y-10-hectareas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "indice-de-juventud" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#indice-de-juventud",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hectareas-en-tierras-labradas-con-cultivos-frutales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-con-cultivos-frutales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "superficie-total-agricultura-ecologica" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-total-agricultura-ecologica",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "total-patrimonio-neto-y-pasivo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#total-patrimonio-neto-y-pasivo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "total-activo-ab" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#total-activo-ab",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "area-gastos-deuda-publica" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#area-gastos-deuda-publica",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "personas-mano-obra-familiar-son-titulares-35-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-son-titulares-35-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "superficie-regada-con-aguas-subterraneas-de-pozo-o-sondeo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-regada-con-aguas-subterraneas-de-pozo-o-sondeo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "rustico-superficie" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#rustico-superficie",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "personas-mano-obra-familiar-otros-que-trabajan-en-otra-actividad-como-secundaria" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-otros-que-trabajan-en-otra-actividad-como-secundaria",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "municipio-superficie-medida" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#municipio-superficie-medida",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "nivel-estudios" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#nivel-estudios",
+      "@type" : "@id"
+    },
+    "CodedProperty" : {
+      "@id" : "http://purl.org/linked-data/cube#CodedProperty"
+    },
+    "viviendas-con-cuarto-de-aseo-con-inodoro" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#viviendas-con-cuarto-de-aseo-con-inodoro",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "numero-empresas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#numero-empresas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "urbana---cuota-integra-euros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#urbana---cuota-integra-euros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "municipio-2-residencia-nombre" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#municipio-2-residencia-nombre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "explotaciones-con-tierras-con-sau--5-y--10-hectareas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-con-sau--5-y--10-hectareas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "nacionalidad-nombre" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#nacionalidad-nombre",
+      "@type" : "@id"
+    },
+    "hectareas-de-sau-en-aparceria" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-de-sau-en-aparceria",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "urbano-valor-catastral-total" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#urbano-valor-catastral-total",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "viviendas-en-el-edificio" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#viviendas-en-el-edificio",
+      "@type" : "@id"
+    },
+    "superficie-regada-por-otros-metodos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-regada-por-otros-metodos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "diputados" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#diputados",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "tipo-estudios" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-estudios",
+      "@type" : "@id"
+    },
+    "edificios-nueva-planta-total" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#edificios-nueva-planta-total",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "viviendas-con-agua-caliente-central" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#viviendas-con-agua-caliente-central",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "especie-ganaderia-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#especie-ganaderia-descripcion",
+      "@type" : "@id"
+    },
+    "visados-reforma" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#visados-reforma",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "i-provisiones-a-largo-plazo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#i-provisiones-a-largo-plazo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "ganado-porcino-resto-porcino-cabezas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ganado-porcino-resto-porcino-cabezas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "unidades-de-trabajo-que-son-mano-de-obra-familiar" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-de-trabajo-que-son-mano-de-obra-familiar",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "c-pasivo-corriente" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#c-pasivo-corriente",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "superficie-tierras-labradas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-tierras-labradas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "porcentaje-de-sau-en-propiedad-del-titular" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#porcentaje-de-sau-en-propiedad-del-titular",
+      "@type" : "@id"
+    },
+    "rustico-subparcelas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#rustico-subparcelas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "numero-de-cabezas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#numero-de-cabezas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "porcentaje-sau-regimen-tenencia" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#porcentaje-sau-regimen-tenencia",
+      "@type" : "@id"
+    },
+    "gastos-financieros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#15-gastos-financieros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "codeList" : {
+      "@id" : "http://purl.org/linked-data/cube#codeList"
+    },
+    "animales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#animales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "pasivos-financieros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#pasivos-financieros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "regimen-de-tenencia-detalle" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#regimen-de-tenencia-detalle",
+      "@type" : "@id"
+    },
+    "sau-ha" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#sau-ha",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "otros-resultados-financieros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#16-18-otros-resultados-financieros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "personas-mano-obra-familiar-conyuges-que-trabajan-en-otra-actividad-como-principal" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-conyuges-que-trabajan-en-otra-actividad-como-principal",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "numero-trabajadores-cc" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#numero-trabajadores-cc",
+      "@type" : "@id"
+    },
+    "cajas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#cajas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "urbano-valor-catastral-suelo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#urbano-valor-catastral-suelo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "vc-cultural" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vc-cultural",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "edad-grupos-quinquenales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#edad-grupos-quinquenales",
+      "@type" : "@id"
+    },
+    "personas-mano-obra-familiar-otros-que--trabajan-tambien-en-otra-activ-lucrativa" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-otros-que--trabajan-tambien-en-otra-activ-lucrativa",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-cuya-gestion-se-lleva-por-el-titular-de-la-misma" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-cuya-gestion-se-lleva-por-el-titular-de-la-misma",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "area-gastos-actuaciones-caracter-general" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#area-gastos-actuaciones-caracter-general",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "rustica---numero-de-recibos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#rustica---numero-de-recibos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "cuota-euros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#cuota-euros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "pension-percepciones-por-persona" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#pension-percepciones-por-persona",
+      "@type" : "@id"
+    },
+    "rustica" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#rustica",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "superficie-regada-por-riego-localizado-goteo-microaspersion-etc" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-regada-por-riego-localizado-goteo-microaspersion-etc",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "a-patrimonio-neto" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#a-patrimonio-neto",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "grado" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#grado",
+      "@type" : "@id"
+    },
+    "a-activo-no-corriente" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#a-activo-no-corriente",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "personas-mano-obra-familiar-con-25-trabajando-en-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-con-25-trabajando-en-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ue27" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#ue27",
+      "@type" : "@id"
+    },
+    "formacion-jefe-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#formacion-jefe-explotacion",
+      "@type" : "@id"
+    },
+    "estado-del-edificio" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#estado-del-edificio",
+      "@type" : "@id"
+    },
+    "gastos-en-bienes-corrientes-y-servicios" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#gastos-en-bienes-corrientes-y-servicios",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "votos-a-candidaturas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#votos-a-candidaturas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "nucleo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#nucleo",
+      "@type" : "@id"
+    },
+    "nivel-formativo-grupo-iaest-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#nivel-formativo-grupo-iaest-descripcion",
+      "@type" : "@id"
+    },
+    "otros-resultados-de-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#9-13-otros-resultados-de-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "numero-de-explotaciones-sin-ganado" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#numero-de-explotaciones-sin-ganado",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "intervalo-renta" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#intervalo-renta",
+      "@type" : "@id"
+    },
+    "explotaciones-con-formacion-universitaria-del-titular" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-formacion-universitaria-del-titular",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hectareas-en-tierras-labradas-de-regadio-cultivos-herbaceos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-de-regadio-cultivos-herbaceos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "nacionalidad-area-nombre" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#nacionalidad-area-nombre",
+      "@type" : "@id"
+    },
+    "c-resultado-antes-de-impuestos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#c-resultado-antes-de-impuestos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "area-gastos-total" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#area-gastos-total",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "superficie-agricola-utilizada-sau" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-agricola-utilizada-sau",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "numero-total-de-parcelas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#numero-total-de-parcelas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-tierras" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "bi-sin-definir" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#bi-sin-definir",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "numero-de-viajes-diarios" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#numero-de-viajes-diarios",
+      "@type" : "@id"
+    },
+    "rustico-parcelas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#rustico-parcelas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "actividad-del-local" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#actividad-del-local",
+      "@type" : "@id"
+    },
+    "numero-viviendas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#numero-viviendas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "corine-land-cover-2000-nivel-2-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#corine-land-cover-2000-nivel-2-descripcion",
+      "@type" : "@id"
+    },
+    "explotaciones-con-experiencia-practica-exclusiva-del-titular" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-experiencia-practica-exclusiva-del-titular",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "tasa-global-de-dependencia" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#tasa-global-de-dependencia",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "personas-asalariados-fijos-varones" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-asalariados-fijos-varones",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-superficie-10-y-20-hectareas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-superficie-10-y-20-hectareas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-otros--trabajan-en-otra-actividad-como-principal" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-otros--trabajan-en-otra-actividad-como-principal",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hectareas-en-tierras-labradas-con-cultivo-vinedo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-en-tierras-labradas-con-cultivo-vinedo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "rustica---base-imponible-miles-de-euros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#rustica---base-imponible-miles-de-euros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "subseccion-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#subseccion-descripcion",
+      "@type" : "@id"
+    },
+    "ascensor" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#ascensor",
+      "@type" : "@id"
+    },
+    "impuestos-sobre-beneficios" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#19-impuestos-sobre-beneficios",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "numero-de-edificios" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#numero-de-edificios",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "unidades-trabajo-ano-totales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-trabajo-ano-totales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "portero-automatico" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#portero-automatico",
+      "@type" : "@id"
+    },
+    "regimen-de-tenencia" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#regimen-de-tenencia",
+      "@type" : "@id"
+    },
+    "seccion-1-letra-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#seccion-1-letra-descripcion",
+      "@type" : "@id"
+    },
+    "indice-de-vejez" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#indice-de-vejez",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "superficie-zonas-de-especial-proteccion-para-las-aves" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-zonas-de-especial-proteccion-para-las-aves",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "iv-vi-otros-activos-corrientes" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#iv-vi-otros-activos-corrientes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "numero-de-empresas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#numero-de-empresas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-otros-de-mas-de-65-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-otros-de-mas-de-65-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ingresos-patrimoniales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ingresos-patrimoniales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "superficie-km2" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-km2",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "ganado-porcino-cabezas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ganado-porcino-cabezas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "corine-land-cover-2000-nivel-1-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#corine-land-cover-2000-nivel-1-descripcion",
+      "@type" : "@id"
+    },
+    "explotaciones-con-tierras-labranza-y-pastos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-labranza-y-pastos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "bi-suelo-vacante" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#bi-suelo-vacante",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-cuya-gestion-se-lleva-por-un-miembro-de-la-familia-no-titular" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-cuya-gestion-se-lleva-por-un-miembro-de-la-familia-no-titular",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "viviendas-con-evacuacion-de-aguas-residuales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#viviendas-con-evacuacion-de-aguas-residuales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "regimen" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#regimen",
+      "@type" : "@id"
+    },
+    "personas-mano-obra-familiar-conyuge-de-35-a-54-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-conyuge-de-35-a-54-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "indice-estructura-de-poblacion-activa-total" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#indice-estructura-de-poblacion-activa-total",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "tipo-de-vehiculo-orden" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-de-vehiculo-orden",
+      "@type" : "@id"
+    },
+    "inversiones-reales" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#inversiones-reales",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "salario-medio-por-persona" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#salario-medio-por-persona",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "unidades-de-trabajo-que-son-asalariados" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-de-trabajo-que-son-asalariados",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "dias-duracion-contrato" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#dias-duracion-contrato",
+      "@type" : "@id"
+    },
+    "edad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#edad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "unidades-ganaderas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-ganaderas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "unidades-trabajo-ano-jefe-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-trabajo-ano-jefe-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "tipo-de-hogar" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-de-hogar",
+      "@type" : "@id"
+    },
+    "hectareas-de-sau-en-arrendamiento" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#hectareas-de-sau-en-arrendamiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ratio-de-autonomia-financiera" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ratio-de-autonomia-financiera",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "siglas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#siglas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "contenedores-de-vidrio" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#contenedores-de-vidrio",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "conejas-madres-cabezas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#conejas-madres-cabezas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "tipo-de-estudios-realizados" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-de-estudios-realizados",
+      "@type" : "@id"
+    },
+    "explotaciones-con-tierras-con-sau--25-de-su-propiedad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-con-sau--25-de-su-propiedad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "rama-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#rama-descripcion",
+      "@type" : "@id"
+    },
+    "explotaciones-con-tierras-con-sau-totalmente-de-su-propiedad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-con-sau-totalmente-de-su-propiedad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "clasificacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#clasificacion",
+      "@type" : "@id"
+    },
+    "urbano-valor-catastral-construccion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#urbano-valor-catastral-construccion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "desempleo-retribucion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#desempleo-retribucion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "tipo-edificio-detalle" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-edificio-detalle",
+      "@type" : "@id"
+    },
+    "porcentaje" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#porcentaje",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "salario-perceptores" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#salario-perceptores",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "tipo-local" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-local",
+      "@type" : "@id"
+    },
+    "de-poblacion-de-20-a-64-anos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#de-poblacion-de-20-a-64-anos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "tipo-de-alojamiento" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-de-alojamiento",
+      "@type" : "@id"
+    },
+    "condicion-socioeconomica" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#condicion-socioeconomica",
+      "@type" : "@id"
+    },
+    "tipo-licencias-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-licencias-descripcion",
+      "@type" : "@id"
+    },
+    "grupo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#grupo",
+      "@type" : "@id"
+    },
+    "viviendas-con-calefaccion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#viviendas-con-calefaccion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "numero-de-contratos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#numero-de-contratos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "vc-deportivo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vc-deportivo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "a-resultado-de-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#a-resultado-de-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "rama-de-actividad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#rama-de-actividad",
+      "@type" : "@id"
+    },
+    "rentabilidad-economica" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#rentabilidad-economica",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "calefaccion-agregado" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#calefaccion-agregado",
+      "@type" : "@id"
+    },
+    "explotaciones-cuyo-titular-es-una-entidad-publica" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-cuyo-titular-es-una-entidad-publica",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "superficie-nueva-planta-no-residencial" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-nueva-planta-no-residencial",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-con-7499-y-100-trabajando-en-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-con-7499-y-100-trabajando-en-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "personas-mano-obra-familiar-con-2499-y-50-trabajando-en-explotacion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-mano-obra-familiar-con-2499-y-50-trabajando-en-explotacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ii-iii-deudas-a-largo-plazo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ii-iii-deudas-a-largo-plazo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "indice-de-maternidad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#indice-de-maternidad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "corine-land-cover-2000-nivel-5-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#corine-land-cover-2000-nivel-5-descripcion",
+      "@type" : "@id"
+    },
+    "division-2-digitos-descripcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#division-2-digitos-descripcion",
+      "@type" : "@id"
+    },
+    "nivel-estudios-agregado" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#nivel-estudios-agregado",
+      "@type" : "@id"
+    },
+    "tractores" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#tractores",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "clase-vivienda-agregado" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#clase-vivienda-agregado",
+      "@type" : "@id"
+    },
+    "superficie-regada-con-agua-suficiente" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-regada-con-agua-suficiente",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "situacion-preferente" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#situacion-preferente",
+      "@type" : "@id"
+    },
+    "aprovisionamientos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#4-aprovisionamientos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "area-gastos-actuaciones-caracter-economico" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#area-gastos-actuaciones-caracter-economico",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "malas-comunicaciones" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#malas-comunicaciones",
+      "@type" : "@id"
+    },
+    "visados-otros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#visados-otros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "urbana" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#urbana",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "explotaciones-con-tierras-con-sau-75-y-100-de-su-propiedad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-con-sau-75-y-100-de-su-propiedad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "porcentaje-de-sau-sobre-la-superficie-total-de-explotaciones-" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#porcentaje-de-sau-sobre-la-superficie-total-de-explotaciones-",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "tipo-de-hogar-2" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tipo-de-hogar-2",
+      "@type" : "@id"
+    },
+    "desempleo-medio-por-percepcion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#desempleo-medio-por-percepcion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ganado-porcino-cerdas-madres-cabezas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ganado-porcino-cerdas-madres-cabezas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-cuyo-titular-es-persona-fisica" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-cuyo-titular-es-persona-fisica",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "vc-sin-definir" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vc-sin-definir",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "explotaciones-sin-tierras" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-sin-tierras",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "area-nacionalidad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#area-nacionalidad",
+      "@type" : "@id"
+    },
+    "explotaciones-con-tierras-con-75-y--100-de-su-propiedad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-tierras-con-75-y--100-de-su-propiedad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ivvvii-otros-pasivos-a-largo-plazo" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#ivvvii-otros-pasivos-a-largo-plazo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "licencias-rehabilitacion-sin-demolicion" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#licencias-rehabilitacion-sin-demolicion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "produccion-estandar-total-euros" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#produccion-estandar-total-euros",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "horas-trabajadas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#horas-trabajadas",
+      "@type" : "@id"
+    },
+    "numero-habitaciones" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#numero-habitaciones",
+      "@type" : "@id"
+    },
+    "explotaciones-cuyo-titular-es-una-sociedad" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-cuyo-titular-es-una-sociedad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "superficie-total-ha" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-total-ha",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "delincuencia-zona" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#delincuencia-zona",
+      "@type" : "@id"
+    },
+    "e-resultado-del-ejercicio-con-op-interrumpidas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#e-resultado-del-ejercicio-con-op-interrumpidas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "lugares-de-importancia-comunitaria" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#lugares-de-importancia-comunitaria",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-superficie--20-y-50-hectareas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-superficie--20-y-50-hectareas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "total-jornadas-completas" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#total-jornadas-completas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "bi-cultural" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#bi-cultural",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "superficie-total-regada" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#superficie-total-regada",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "explotaciones-con-pastos-y-otras-tierras" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-pastos-y-otras-tierras",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "explotaciones-con-solo-pastos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#explotaciones-con-solo-pastos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "unidades-trabajo-ano-titular" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#unidades-trabajo-ano-titular",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "tamano-empresa" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/dimension#tamano-empresa",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "personas-asalariados-fijos-total" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#personas-asalariados-fijos-total",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "vc-industrial" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#vc-industrial",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "espanoles" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#espanoles",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "bancos" : {
+      "@id" : "http://opendata.aragon.es/def/iaest/medida#bancos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}

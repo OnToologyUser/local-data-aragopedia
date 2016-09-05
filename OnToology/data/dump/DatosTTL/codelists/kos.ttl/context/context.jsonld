@@ -1,0 +1,28 @@
+{
+  "@context" : {
+    "hasTopConcept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+    },
+    "notation" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#notation"
+    },
+    "narrower" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#narrower"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "ConceptScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+  }
+}
